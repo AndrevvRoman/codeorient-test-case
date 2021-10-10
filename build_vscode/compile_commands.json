@@ -1,0 +1,55 @@
+[
+{
+  "directory": "/home/romanov_as/codeorient-test-case/build_vscode",
+  "command": "/bin/g++-9   -I../app/src -I../libs -I../libs/args  -g   -std=gnu++14 -o CMakeFiles/tee.dir/app/main.cpp.o -c /home/romanov_as/codeorient-test-case/app/main.cpp",
+  "file": "/home/romanov_as/codeorient-test-case/app/main.cpp"
+},
+
+{
+  "directory": "/home/romanov_as/codeorient-test-case/build_vscode",
+  "command": "/bin/g++-9   -I../libs/args  -g   -std=gnu++11 -o libs/args/CMakeFiles/argstest-windows-h.dir/test/windows_h.cxx.o -c /home/romanov_as/codeorient-test-case/libs/args/test/windows_h.cxx",
+  "file": "/home/romanov_as/codeorient-test-case/libs/args/test/windows_h.cxx"
+},
+
+{
+  "directory": "/home/romanov_as/codeorient-test-case/build_vscode",
+  "command": "/bin/g++-9   -I../libs/args  -g   -std=gnu++11 -o libs/args/CMakeFiles/argstest-multiple-inclusion.dir/test/multiple_inclusion_1.cxx.o -c /home/romanov_as/codeorient-test-case/libs/args/test/multiple_inclusion_1.cxx",
+  "file": "/home/romanov_as/codeorient-test-case/libs/args/test/multiple_inclusion_1.cxx"
+},
+
+{
+  "directory": "/home/romanov_as/codeorient-test-case/build_vscode",
+  "command": "/bin/g++-9   -I../libs/args  -g   -std=gnu++11 -o libs/args/CMakeFiles/argstest-multiple-inclusion.dir/test/multiple_inclusion_2.cxx.o -c /home/romanov_as/codeorient-test-case/libs/args/test/multiple_inclusion_2.cxx",
+  "file": "/home/romanov_as/codeorient-test-case/libs/args/test/multiple_inclusion_2.cxx"
+},
+
+{
+  "directory": "/home/romanov_as/codeorient-test-case/build_vscode",
+  "command": "/bin/g++-9   -I../libs/args  -g   -Wall -Wextra -Werror -pedantic -Wshadow -Wunused-parameter -std=gnu++11 -o libs/args/CMakeFiles/argstest.dir/test.cxx.o -c /home/romanov_as/codeorient-test-case/libs/args/test.cxx",
+  "file": "/home/romanov_as/codeorient-test-case/libs/args/test.cxx"
+},
+
+{
+  "directory": "/home/romanov_as/codeorient-test-case/build_vscode",
+  "command": "/bin/g++-9   -I../libs/args  -g   -std=gnu++11 -o libs/args/CMakeFiles/completion.dir/examples/completion.cxx.o -c /home/romanov_as/codeorient-test-case/libs/args/examples/completion.cxx",
+  "file": "/home/romanov_as/codeorient-test-case/libs/args/examples/completion.cxx"
+},
+
+{
+  "directory": "/home/romanov_as/codeorient-test-case/build_vscode",
+  "command": "/bin/g++-9   -I../libs/args  -g   -std=gnu++11 -o libs/args/CMakeFiles/gitlike.dir/examples/gitlike.cxx.o -c /home/romanov_as/codeorient-test-case/libs/args/examples/gitlike.cxx",
+  "file": "/home/romanov_as/codeorient-test-case/libs/args/examples/gitlike.cxx"
+},
+
+{
+  "directory": "/home/romanov_as/codeorient-test-case/build_vscode",
+  "command": "/bin/g++-9   -I../tests/integrationTests/libs/Catch/single_include -I../tests/integrationTests/src -I../app/src -I../libs/args  -g   -std=gnu++14 -o tests/integrationTests/CMakeFiles/tee-integration-tests.dir/src/FileWriter.cpp.o -c /home/romanov_as/codeorient-test-case/tests/integrationTests/src/FileWriter.cpp",
+  "file": "/home/romanov_as/codeorient-test-case/tests/integrationTests/src/FileWriter.cpp"
+},
+
+{
+  "directory": "/home/romanov_as/codeorient-test-case/build_vscode",
+  "command": "/bin/g++-9   -I../tests/integrationTests/libs/Catch/single_include -I../tests/integrationTests/src -I../app/src -I../libs/args  -g   -std=gnu++14 -o tests/integrationTests/CMakeFiles/tee-integration-tests.dir/src/main.cpp.o -c /home/romanov_as/codeorient-test-case/tests/integrationTests/src/main.cpp",
+  "file": "/home/romanov_as/codeorient-test-case/tests/integrationTests/src/main.cpp"
+}
+]

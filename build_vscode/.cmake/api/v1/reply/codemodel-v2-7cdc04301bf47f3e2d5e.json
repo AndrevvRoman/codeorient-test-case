@@ -1,0 +1,180 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "libs/args",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/args",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "tests/integrationTests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "tests/integrationTests",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tee",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "args",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "tee-integration-tests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "argstest::@8d0abcda68f8b109b664",
+					"jsonFile" : "target-argstest-Debug-98a31927ea831605c7a9.json",
+					"name" : "argstest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "argstest-multiple-inclusion::@8d0abcda68f8b109b664",
+					"jsonFile" : "target-argstest-multiple-inclusion-Debug-c8afb1be7915ecc409f8.json",
+					"name" : "argstest-multiple-inclusion",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "argstest-windows-h::@8d0abcda68f8b109b664",
+					"jsonFile" : "target-argstest-windows-h-Debug-682903c95d9816496db3.json",
+					"name" : "argstest-windows-h",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "completion::@8d0abcda68f8b109b664",
+					"jsonFile" : "target-completion-Debug-949d28e76bc4fa5fb09b.json",
+					"name" : "completion",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gitlike::@8d0abcda68f8b109b664",
+					"jsonFile" : "target-gitlike-Debug-c95e956725e34a7532fe.json",
+					"name" : "gitlike",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libtee::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libtee-Debug-a903533d16d9792443f4.json",
+					"name" : "libtee",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tee::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tee-Debug-a4a9cade1f6b1d44cedf.json",
+					"name" : "tee",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tee-integration-tests::@ebe4e94305b353a1a073",
+					"jsonFile" : "target-tee-integration-tests-Debug-64223e300fe5cf4e9f07.json",
+					"name" : "tee-integration-tests",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/romanov_as/codeorient-test-case/build_vscode",
+		"source" : "/home/romanov_as/codeorient-test-case"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
