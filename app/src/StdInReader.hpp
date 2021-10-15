@@ -15,7 +15,9 @@ namespace tee
             while (std::getline(std::cin,temp)) 
             {
                 result += temp;
+                std::cout << temp << std::endl;
             }
+            result += "\n";
             return result;
         }
     };

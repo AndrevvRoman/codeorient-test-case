@@ -26,7 +26,6 @@ namespace tee
         void start(const Args& args)
         {
             std::string in = m_stdInReader->read();
-            std::cout << in << std::endl;
             if (args.fileName != "")
             {
                 m_fileWriter->write(args.fileName, in, !args.rewriteFile);
