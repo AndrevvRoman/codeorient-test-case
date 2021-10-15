@@ -1,6 +1,0 @@
-Hello from end of file!
-Hello again
-aaaa
-bbb
-d
-aaaendendend
