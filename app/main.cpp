@@ -10,7 +10,7 @@ tee::Endpoints::Args parseArgs(int argc, char* argv[])
     tee::Endpoints::Args result;
     args::ArgumentParser parser("Tee application for writting files.", "");
     args::HelpFlag help(parser, "help", "Display this help menu", { 'h', "help" });
-    args::ValueFlag<std::string> fileName(parser, "NAME", "Input file name", { 'n', "fileName" }, args::Options::Required);
+    args::ValueFlag<std::string> fileName(parser, "NAME", "Input file name", { 'n', "fileName" });
     args::Flag rewriteFile(parser, "APPEND", "Set appending to end of file", { 'a' });
 
     try

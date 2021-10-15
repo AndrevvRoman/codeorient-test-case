@@ -14,7 +14,7 @@ namespace tee
     public:
         struct Args
         {
-            std::string fileName;
+            std::string fileName = "";
             bool rewriteFile = false;
         };
 
@@ -26,7 +26,11 @@ namespace tee
         void start(const Args& args)
         {
             std::string in = m_stdInReader->read();
-            m_fileWriter->write(args.fileName, in, !args.rewriteFile);
+            std::cout << in << std::endl;
+            if (args.fileName != "")
+            {
+                m_fileWriter->write(args.fileName, in, !args.rewriteFile);
+            }
         }
     private:
         std::shared_ptr<IWriter> m_fileWriter;
